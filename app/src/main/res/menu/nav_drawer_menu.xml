@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navdrawer_home"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/item_home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/navdrawer_busca"
+            android:icon="@drawable/navdrawer_busca"
+            android:title="@string/item_busca"
+            android:checked="true"/>
+        <item
+            android:id="@+id/navdrawer_fav"
+            android:icon="@drawable/navdrawer_notfy"
+            android:title="@string/item_notfy"
+            android:checked="true"/>
+        </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navdrawer_promo"
+            android:icon="@drawable/navdrawer_promo"
+            android:title="@string/item_promo"
+            android:checked="true"/>
+        <item
+            android:id="@+id/navdrawer_viagem"
+            android:icon="@drawable/navdrawer_viagem"
+            android:title="@string/item_viagem"
+            android:checked="true"
+            />
+        </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navdrawer_local"
+            android:icon="@drawable/navdrawer_local"
+            android:title="@string/item_local"
+            android:checked="true"
+
+            />
+        <item
+            android:id="@+id/navdrawer_config"
+            android:icon="@drawable/navdrawer_config"
+            android:title="@string/item_config"
+            android:checked="true"/>
+
+        <item android:id="@+id/navdrawer_sair"
+            android:icon="@drawable/navdrawer_home"
+            android:title="@string/sair"
+            android:checked="true"/>
+
+
+
+
+
+    </group>
+
+</menu>

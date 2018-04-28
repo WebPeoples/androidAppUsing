@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/nao_sei_minha_senha_login" android:state_pressed="false"/>
+    <item android:drawable="@drawable/minha_senha_pressed_login" android:state_pressed="true"/>
+    <item android:drawable="@drawable/nao_sei_minha_senha_login"/>
+</selector>

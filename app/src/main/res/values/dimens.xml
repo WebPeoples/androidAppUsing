@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+
+    <!-- NAVDRAWER HEADER -->
+        <!-- Nome do usuário -->
+    <dimen name="navdrawerheader_textSize_name_user">20sp</dimen>
+    <dimen name="navdrawerheader_margintop_name_user">60dp</dimen>
+    <dimen name="navdrawerheader_marginleft_name_user">120dp</dimen>
+    <dimen name="navdrawerheader_linearlayout_marginbottom">50dp</dimen>
+    <dimen name="navdrawerheader_linearlayout_layoutheight">100dp</dimen>
+        <!-- Foto do usuário -->
+    <dimen name="navdrawerheader_foto_width">90dp</dimen>
+    <dimen name="navdrawerheader_foto_height">90dp</dimen>
+    <dimen name="navdrawerheader_foto_margintop">32dp</dimen>
+    <dimen name="navdrawerheader_foto_marginleft">20dp</dimen>
+
+
+    <!--NAVIGATION VIEW -->
+    <dimen name="navigationview_image_footer_height">60dp</dimen>
+
+
+</resources>

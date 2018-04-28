@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/rosa"
+    tools:context="com.example.goku.using.fragment.FavFragment_esquerda">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/branco"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categoria" />
+
+
+            <Button
+                android:id="@+id/fav_ac_btalimentos"
+                android:textColor="@color/azul"
+                android:text="Alimentos"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/fav_ac_btVestu"
+                android:textColor="@color/azul"
+                android:text="Vestuário"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/fav_ac_btBebida"
+                android:textColor="@color/azul"
+                android:text="Bebidas"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/fav_ac_btServico"
+                android:textColor="@color/azul"
+                android:text="Serviços"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/fav_ac_btSaude"
+                android:textColor="@color/azul"
+                android:text="Saúde"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/fav_ac_btVarejo"
+                android:textColor="@color/azul"
+                android:text="Varejo"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/fav_ac_btManu"
+                android:textColor="@color/azul"
+                android:text="Manutenção"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/fav_ac_btEletro"
+                android:textColor="@color/azul"
+                android:text="Lazer"
+                android:background="@drawable/button_efect"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+
+            </ScrollView>
+
+</LinearLayout>

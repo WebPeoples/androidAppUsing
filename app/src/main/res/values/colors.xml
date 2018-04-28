@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Cores da tela de login -->
+    <color name="colorHintEditTextLogin">#a39090</color>
+    
+    
+    <!-- CORES PADRÕES DO APLICATIVO -->
+    <color name="azul">#2e3192</color>
+    <color name="azul_for_transp">#2e3193</color>
+    <color name="rosa">#f05565</color>
+    <color name="rosa_for_transp">#f05566</color>
+    <color name="branco">#fff</color>
+    <color name="cinza">#ddd</color>
+    <color name="cinza_mais_escuro">#888</color>
+
+    <!-- CORES DAS SUBCATEGORIAS -->
+    <color name="alimentos_verde">#2e915d</color>
+    <color name="alimentos_amarelo">#e6ae17</color>
+    <color name="alimentos_laranja">#e67817</color>
+
+    <color name="bebidas_vinho">#d94646</color>
+    <color name="bebidas_cor_pele">#d68556</color>
+    <color name="bebidas_cor_pele_claro">#d9a84a</color>
+    
+    <color name="vestuario_azul">#2e7491</color>
+
+    <color name="servicos_azul">#2e7491</color>
+
+    <color name="saude_vermelho">#ef2323</color>
+
+    <color name="varejo_azul">#0081c5</color>
+
+    <color name="manutencao_verde">#35ab59</color>
+
+    <color name="eletronicos_verde">#389b95</color>
+    
+</resources>

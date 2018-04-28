@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.goku.using.fragment.CategoriaFragment1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <TableRow
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_alimentos_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaAlimentos"
+                    />
+
+                <Button
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_vestuario_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaVestuario"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_bebidas_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaBebidas" />
+
+                <Button
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_servicos_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaServicos"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+
+       <!-- <ImageView
+            android:layout_weight="1"
+            android:id="@+id/seta_cat_frag1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:onClick="cat_seta_prox"
+            android:src="@drawable/frag_seta_prox" />-->
+    </LinearLayout>
+
+
+</FrameLayout>
+

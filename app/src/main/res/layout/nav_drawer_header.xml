@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/containerNavDrawerListViewHolder"
+    android:layout_gravity="start" android:background="@color/rosa" tools:igonre="MissingPrefix">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/navdrawerheader_margintop_name_user"
+        android:padding="10dp"
+        android:layout_marginBottom="@dimen/navdrawerheader_linearlayout_marginbottom"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/navdrawerheader_linearlayout_layoutheight">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:textColor="@color/branco"
+                android:text="Email: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/navheader_email"
+                android:textColor="@color/branco"
+                android:text="EXAMPLE"
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Nome: "
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:textColor="@color/branco"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/navheader_nome"
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:textColor="@color/branco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Código de usuário: "
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:textColor="@color/branco"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/navheader_cduser"
+                android:textSize="@dimen/navdrawerheader_textSize_name_user"
+                android:textColor="@color/branco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

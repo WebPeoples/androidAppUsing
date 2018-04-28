@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:weightSum="1">
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/fundo2"
+            android:src="@drawable/fundo_dois"
+            android:scaleType = "centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"/>
+
+    <ImageView
+        android:src="@drawable/sing"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:id="@+id/sing"
+        android:layout_marginTop="224dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginStart="53dp"
+        />
+
+    <ImageView
+        android:id="@+id/frase"
+        android:src="@drawable/fraseinicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/u_cortado"
+        android:src="@drawable/u_cortado"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="500dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="230dp" />
+
+
+</RelativeLayout>

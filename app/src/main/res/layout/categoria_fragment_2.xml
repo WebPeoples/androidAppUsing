@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:rowCount="5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TableRow
+                android:paddingTop="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_weight="1">
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_varejo_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaVarejo"
+                    />
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_lazer_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:id="@+id/categoriaLazer"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:paddingTop="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_weight="1">
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_manutencao_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriaManutencao"
+                    />
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/categoria_saude_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:id="@+id/categoriaSaude"/>
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

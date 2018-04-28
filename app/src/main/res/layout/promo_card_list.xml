@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/promo_card_view"
+    android:layout_margin="15dp"
+    card:cardBackgroundColor="@color/branco"
+    card:cardCornerRadius="5dp"
+    card:cardElevation="5dp"
+    card:contentPadding="4dp"
+    card:theme="@style/CardView.Dark"
+    android:layout_gravity="end"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/promo_card_produto_img"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+             />
+        <ImageView
+            android:layout_weight="0.5"
+            android:id="@+id/promo_card_loja_img"
+            android:src="@drawable/sams"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/promo_card_produto_img"
+            android:layout_toEndOf="@+id/promo_card_produto_img"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/promo_card_preco"
+        android:textStyle="bold"
+        android:text="R$60,00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/rosa"/>
+
+</android.support.v7.widget.CardView>

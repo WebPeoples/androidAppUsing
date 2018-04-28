@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:minHeight="?android:attr/actionBarSize"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:popupTheme="@style/AppTheme.PopupOverlay"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:background="@color/branco"
+    app:titleTextColor="@color/azul">
+
+    <ImageView
+        android:src="@drawable/using"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.goku.using.activity.LoginActivity">
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:scaleX="1.15"
+        android:scaleY="1"
+        android:src="@drawable/fundo_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<TableRow android:layout_weight="6">
+
+</TableRow>
+        <TableRow android:layout_weight="1" >
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edit_email_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintEditTextEmail"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textColorHint="@color/colorHintEditTextLogin" />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/edit_senha_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edit_email_Login"
+                android:layout_marginTop="20dp"
+                android:hint="@string/hintEditTextSenha"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textColorHint="@color/colorHintEditTextLogin" />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="0.1">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btEntrar_login"
+                android:text="Entrar"
+                android:background="@color/branco"
+                android:textColor="@color/rosa"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="66dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+
+
+        </TableRow>
+
+       <TableRow android:layout_weight="1">
+           <Button
+               android:layout_weight="1"
+               android:background="@drawable/cadastrese"
+               android:layout_width="180dp"
+               android:layout_height="30dp"
+               android:layout_marginBottom="11dp"
+               android:id="@+id/cadastrar"
+               android:layout_above="@+id/btEntrar_login"
+               android:layout_centerHorizontal="true" />
+           <Button
+               android:layout_weight="1"
+               android:background="@drawable/naominhasena"
+               android:layout_width="180dp"
+               android:layout_height="30dp"
+               android:layout_above="@+id/cadastrar"
+               android:layout_centerHorizontal="true"
+               android:id="@+id/button2" />
+
+       </TableRow>
+
+       <TableRow android:layout_weight="2">
+
+       </TableRow>
+    </TableLayout>
+
+
+</FrameLayout>

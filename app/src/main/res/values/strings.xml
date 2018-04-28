@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Using</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings tela de login -->
+    <string name="hintEditTextEmail">E-mail ou apelido UsinG</string>
+    <string name="hintEditTextSenha">Senha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Primeira_tela_categoria">categoria_fragment_1</string>
+    <string name="Segunda_tela_categoria">categoria_fragment_2</string>
+
+    <!-- NAVDRAWER -->
+    <string name="item_home">Inicio</string>
+    <string name="item_busca">Filtro de Busca</string>
+    <string name="item_notfy">Notificações</string>
+    <string name="item_promo">Promoções</string>
+    <string name="item_viagem">Guia de Viagem</string>
+    <string name="item_local">Localização</string>
+    <string name="item_config">Configurações</string>
+
+
+    <!-- TEXTO CATEGORIA -->
+    <string name="texto_categoria">Escolha a categoria</string>
+    <string name="texto_categoria2">do produto</string>
+    <string name="texto_desejado_rosa">Desejado!</string>
+
+    <!-- TEXTO SUBCATEGORIA -->
+    <string name="texto_subcategoria">Selecione o tipo</string>
+    <string name="texto_subcategoria2">do produto</string>
+    <string name="texto_desejado_subcategoria">Desejado!</string>
+
+
+    <string name="text_example">Recheio para Almofada em 100% poliéster
+
+    Troque os recheios periodicamente, assim como os travesseiros também acumulam resíduos que causam alergiam.
+
+    Fabricante: Trisoft</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="mensagem_alerta_permission">Para usar este aplicativos você precisa aceitar as permissões.</string>
+    <string name="button">ok</string>
+    <string name="mensagem_alerta_gps">Este aplicativo utiliza o GPS, é necessário ativá-lo.</string>
+    <string name="frag_fav_lojas">Lojas</string>
+    <string name="activity_produto_protudo">Produto</string>
+    <string name="activity_produto_almofada_confort">Almofada Confort</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="avaliar">Avaliar</string>
+    <string name="avalia_o">Avaliação</string>
+    <string name="aberto">Aberto</string>
+    <string name="endere_o">Endereço</string>
+    <string name="www_webpeople_net">www.webpeople.net</string>
+    <string name="contato">Contato</string>
+    <string name="informa_es">Informações</string>
+    <string name="sair">Sair</string>
+    <string name="nav_header_maps_especialidades">Especialidades</string>
+    <string name="maps_activity_pesquisar_nav">PESQUISAR</string>
+    <string name="categorias">Categorias</string>
+
+
+    <string name="alimentos">Alimentos</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="vestuario">Vestuário</string>
+    <string name="servicos">Serviços</string>
+    <string name="saude">Saúde</string>
+    <string name="varejo">Varejo</string>
+    <string name="manutencao">Manutenção</string>
+    <string name="eletronicos">Eletrônicos</string>
+    <string name="detalhes">DETALHES</string>
+    <string name="categoria">Categoria</string>
+    <string name="descri_o">Descrição</string>
+    <string name="especifica_es">Especificações:</string>
+    <string name="produtos">Produtos</string>
+    <string name="em_promo_o">EM PROMOÇÃO</string>
+
+
+</resources>

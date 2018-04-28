@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "221073009131",
+    "firebase_url": "https://using-edaa9.firebaseio.com",
+    "project_id": "using-edaa9",
+    "storage_bucket": "using-edaa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221073009131:android:0013924833061078",
+        "android_client_info": {
+          "package_name": "com.example.goku.using"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221073009131-n4pcaprjo97ampgmpu1pgeguugut78gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKfmcpWV73y6UTdzrE2II48o8Lm1iXDoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
